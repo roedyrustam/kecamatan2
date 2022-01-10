@@ -148,8 +148,8 @@ $jum_pesan = $query->num_rows();
                 </a>
                 <ul class="treeview-menu">
                     <li class="<?php if ($this->uri->segment(2) == "alurlayanan") {echo "active";}?>"><a
-                            href="<?php echo base_url() . 'admin/pengajuan' ?>"><i
-                                class="fa fa-hand-o-right"></i>Pengajuan Surat</a></li>
+                            href="<?php echo base_url() . 'admin/surat' ?>"><i class="fa fa-hand-o-right"></i>Pengajuan
+                            Surat</a></li>
                     <li class="<?php if ($this->uri->segment(2) == "denahlayanan") {echo "active";}?>"><a
                             href="<?php echo base_url() . 'admin/denahlayanan' ?>"><i
                                 class="fa fa-street-view"></i>Denah Layanan</a></li>
