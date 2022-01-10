@@ -62,6 +62,8 @@
                             Pelayanan
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a <?php echo (($this->uri->segment(1) == "suratonline") ? 'class="dropdown-item active"' : 'class="dropdown-item "') ?>
+                                href="<?php echo base_url() . 'suratonline'; ?>">Pengajuan Surat</a>
                             <a <?php echo (($this->uri->segment(1) == "alurpelayanan") ? 'class="dropdown-item active"' : 'class="dropdown-item "') ?>
                                 href="<?php echo base_url() . 'alurpelayanan'; ?>">Alur Kegiatan Pelayanan</a>
                             <a <?php echo (($this->uri->segment(1) == "denahpelayanan") ? 'class="dropdown-item active"' : 'class="dropdown-item "') ?>
