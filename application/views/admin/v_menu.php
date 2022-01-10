@@ -83,7 +83,7 @@ $jum_pesan = $query->num_rows();
         </a>
         <ul class="treeview-menu">
           <li class="<?php if ($this->uri->segment(2) == "identitas") {echo "active";}?>"><a href="<?php echo base_url() . 'admin/identitas' ?>"><i class="fa fa-list"></i>Identitas Kecamatan</a></li>
-          <li class="<?php if ($this->uri->segment(2) == "waktu") {echo "active";}?>"><a href="<?php echo base_url() . 'admin/waktu' ?>"><i class="fa fa-clock-o"></i>Waktu Buka</a></li>
+          <li class="<?php if ($this->uri->segment(2) == "waktu") {echo "active";}?>"><a href="<?php echo base_url() . 'admin/waktu' ?>"><i class="fa fa-clock-o"></i>Jam Operasional</a></li>
           <li class="<?php if ($this->uri->segment(2) == "slider") {echo "active";}?>"><a href="<?php echo base_url() . 'admin/slider' ?>"><i class="fa fa-image"></i>Slider</a></li>
           <li class="<?php if ($this->uri->segment(2) == "socmed") {echo "active";}?>"><a href="<?php echo base_url() . 'admin/socmed' ?>"><i class="fa fa-link"></i>Social Media</a></li>
 
