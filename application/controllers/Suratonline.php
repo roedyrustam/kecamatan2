@@ -1,13 +1,15 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class Suratonline extends CI_Controller
-{
 
-    public function __construct()
-    {
+
+
+
+
+class Suratonline extends CI_Controller{
+
+    function __construct(){
         parent::__construct();
-        $this->load->model('galery_model', 'galery');
         $this->load->model('pengajuan_track_model', 'pengajuan_track');
         $this->load->model('M_Penduduk', 'penduduk');
 
